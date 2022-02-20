@@ -1,7 +1,34 @@
+/* Global styles */
+
 * {
   margin: 0;
   padding: 0;
 }
+
+.orange {
+  color: orange;
+}
+
+.img-responsive {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+button{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(80, 56, 12);
+}
+
+/* ---------------------------- */
 
 .navBar {
   position: sticky;
@@ -13,6 +40,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  padding-bottom: 20px;
 }
 
 .topNav a {
@@ -29,7 +57,36 @@
   color: orange;
 }
 
+/* welcome styles */
 
-.orange{
-    color: orange;
+.welcomeMain {
+  display: flex;
+
+  margin: 0 2%;
+}
+
+.welcomeMain .welcomeLeft {
+  width: 50%;
+
+  padding-left: 20px;
+  margin-top: 100px;
+
+}
+
+.welcomeMain .welcomeLeft h1{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.welcomeMain .welcomeLeft p {
+  margin-bottom: 10px;
+}
+
+.welcomeMain .welcomeRight {
+  width: 50%;
+}
+
+.welcomeMain .welcomeRight img {
+  max-width: 100%;
+  object-fit: contain;
 }
