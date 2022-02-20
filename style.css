@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .orange {
@@ -14,18 +15,17 @@
   object-fit: contain;
 }
 
-
-button{
-    background-color: orange;
-    border: none;
-    padding: 10px;
-    border-radius: 15px;
-    color: white;
+button {
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
 }
 
-button:hover{
-    cursor: pointer;
-    background-color: rgb(80, 56, 12);
+button:hover {
+  cursor: pointer;
+  background-color: rgb(80, 56, 12);
 }
 
 /* ---------------------------- */
@@ -70,12 +70,11 @@ button:hover{
 
   padding-left: 20px;
   margin-top: 100px;
-
 }
 
-.welcomeMain .welcomeLeft h1{
-    margin-bottom: 10px;
-    font-size: 2rem;
+.welcomeMain .welcomeLeft h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
 
 .welcomeMain .welcomeLeft p {
@@ -89,4 +88,37 @@ button:hover{
 .welcomeMain .welcomeRight img {
   max-width: 100%;
   object-fit: contain;
+}
+
+/* Recipies Section */
+
+.recipiesMain .recipiesHead h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.recipiesMain .recipiesHead h5 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: gray;
+}
+
+.recipiesMain .recipiesControl {
+  display: flex;
+}
+
+
+.recipiesBox{
+    margin: 10px;
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.recipiesBox img{
+    margin-bottom: 35px;
+}
+
+.imgDesc p {
+    color: gray;
 }
