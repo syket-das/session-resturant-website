@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+  background-color: rgb(221, 205, 150, 0.5);
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.topNav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.navItems a {
+  margin-right: 10px;
+}
+
+.navItems a:hover {
+  color: orange;
+}
+
+
+.orange{
+    color: orange;
+}
